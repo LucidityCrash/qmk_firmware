@@ -39,3 +39,6 @@ SRC = matrix.c
 
 # upload: build
 # 	$(REDOX_W_UPLOAD_COMMAND)
+#
+
+EXTRAFLAGS        += -flto
